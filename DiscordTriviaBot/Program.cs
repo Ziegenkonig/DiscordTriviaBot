@@ -1,12 +1,10 @@
-﻿using System;
+﻿using DiscordTriviaBot;
 
-namespace DiscordTriviaBot
+class Program
 {
-    class Program
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Number");
-        }
+        TriviaBot triviaBot = new TriviaBot();
+        triviaBot.Execute("");
     }
 }
